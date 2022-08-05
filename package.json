@@ -1,0 +1,24 @@
+{
+  "name": "distorted-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graciegould/chat.git"
+  },
+  "author": "gracie gould",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graciegould/chat/issues"
+  },
+  "homepage": "https://github.com/graciegould/chat#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  }
+}
